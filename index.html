@@ -40,15 +40,15 @@
     </header>
 
         <div class="container">
-            <div class="spot">Your Parking Space is - )" + suitableSlot + R"(</div>
+            <div class="spot">Your Parking Space is - {{ suitable_slot }}</div>
             <div class="spot">Parking Slots Availability:
                 <ul>
-                    <li>Slot 1: )" + slot1Status + R"(</li>
-                    <li>Slot 2: )" + slot2Status + R"(</li>
-                    <li>Slot 3: )" + slot3Status + R"(</li>
+                    <li>Slot 1: {{ slot_1 }}</li>
+                    <li>Slot 2: {{ slot_2 }}</li>
+                    <li>Slot 3: {{ slot_3 }}</li>
                 </ul>
             </div>
-            <div class="spot">Vehicle Size Guidance - )" + vehicleSize + R"(</div>
+            <div class="spot">Vehicle Size Guidance - {{ vehicle_size }}</div>
         </div>
     
 </body>
